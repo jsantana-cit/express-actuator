@@ -69,3 +69,18 @@ If you want the endpoints to be available on a custom endpoint you can do so:
 ```js
 app.use(actuator('/management')); // It will set /management/info instead of /info
 ```
+
+## Health check of external dependencies
+
+You have to create a file 'healthcheck.config.yml' in the BFF directory to verify the dependencies external of module.
+
+Example of the YML configuration file:
+```js
+checks:
+  - name: Google
+    endpoint: http://www.google.com
+  - name: The New York Time
+    endpoint: https://www.nytimes.com
+  - name: Test Fail EndPoint
+    endpoint: http://testfailendpoint.com
+```
