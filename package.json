@@ -1,6 +1,6 @@
 {
-  "name": "express-actuator",
-  "version": "1.0.2",
+  "name": "express-actuator-healthcheck",
+  "version": "1.0.0",
   "description": "Express Actuator provides monitoring endpoints based on Spring Boot Actuator and the healthcheck-ping module by Mathias Schreck",
   "main": "lib/actuatorMiddleware",
   "files": [
@@ -10,7 +10,7 @@
     "CHANGELOG.md"
   ],
   "license": "MIT",
-  "author": "Raúl Cruz <rcruzper@gmail.com>",
+  "author": "Jefferson Santana <je.americana@gmail.com>",
   "dependencies": {
     "express": "4.16.3",
     "moment": "2.22.2",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rcruzper/express-actuator.git"
+    "url": "https://github.com/jsantana-cit/express-actuator.git"
   },
   "keywords": [
     "express",
