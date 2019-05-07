@@ -51,7 +51,7 @@ These are the endpoints available:
 ## Installation
 
 ```bash
-$ npm install express-actuator --save
+$ npm install express-actuator-healthcheck --save
 ```
 
 ## Usage
